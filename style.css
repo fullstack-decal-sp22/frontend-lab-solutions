@@ -1,8 +1,8 @@
 :root {
     --lightBackground: white;
-    --lightFontColor: black;
+    --lightFontColor:#2C2C2C;
     --lightSearchButtonColor: #E36060;
-    --darkBackground: black;
+    --darkBackground: #2C2C2C;
     --darkFontColor: white;
     --darkSearchButtonColor: #9A60E3;
 }

@@ -27,7 +27,7 @@ let weather = {
 }
 
 document.querySelector(".search-button")
-.addEventListener("click", function () {
+.addEventListener("click", () => {
     weather.search();
 });
 
@@ -37,7 +37,7 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event) 
     }
 });
 
-weather.fetchWeather("Denver");
+weather.fetchWeather("Berkeley");
 
 //Enabling Night Mode Toggle
 const toggle = document.getElementById("toggle");
